@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-04 03:54:37
+/* Smarty version 3.1.30, created on 2017-11-25 08:19:43
   from "D:\TAD1062\UniServerZ\www\Reporter\templates\header.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_59fd39fd6649a5_68144140',
+  'unifunc' => 'content_5a19279f112e51_61085412',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '57ef031f7c8985b43b84fd0e97181c29b679cbe3' => 
     array (
       0 => 'D:\\TAD1062\\UniServerZ\\www\\Reporter\\templates\\header.tpl',
-      1 => 1509767394,
+      1 => 1511597521,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_59fd39fd6649a5_68144140 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a19279f112e51_61085412 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -34,5 +34,9 @@ function content_59fd39fd6649a5_68144140 (Smarty_Internal_Template $_smarty_tpl)
 <!-- crossorigin="anonymous"> -->
 <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
-<link rel="stylesheet" href="css/my.css"><?php }
+<link rel="stylesheet" href="css/my.css">
+
+<?php echo '<script'; ?>
+ src="js/jquery-3.2.1.min.js"><?php echo '</script'; ?>
+><?php }
 }

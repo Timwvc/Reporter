@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2017-11-25 04:16:36
+/* Smarty version 3.1.30, created on 2017-11-25 07:22:38
   from "D:\TAD1062\UniServerZ\www\Reporter\templates\op_modify_article.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a18eea48d9ea8_43592760',
+  'unifunc' => 'content_5a191a3e6531e7_75071165',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '337dd225458cd94ef20d502401fb3f7812a9151c' => 
     array (
       0 => 'D:\\TAD1062\\UniServerZ\\www\\Reporter\\templates\\op_modify_article.tpl',
-      1 => 1511583384,
+      1 => 1511593261,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a18eea48d9ea8_43592760 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a191a3e6531e7_75071165 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
  src="ckeditor/ckeditor.js"><?php echo '</script'; ?>
 >
