@@ -4,7 +4,7 @@ require_once 'header.php';
 $page_title = '管理頁面';
 
 $op = isset($_REQUEST['op']) ? filter_var($_REQUEST['op']) : '';
-$op = isset($_REQUEST['sn']) ? (int) ($_REQUEST['sn']) : 0;
+$sn = isset($_REQUEST['sn']) ? (int) ($_REQUEST['sn']) : 0;
 switch ($op) {
     case 'insert':
         $sn = insert_article();
@@ -16,6 +16,10 @@ switch ($op) {
         exit;
 
     case "article_form":
+        break;
+
+    case "modify_article":
+        show_article($sn);
         break;
 
     default:
